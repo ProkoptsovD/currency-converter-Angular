@@ -1,0 +1,18 @@
+<header class="header">
+    <div class="container header__container">
+        <div class="wrapper">
+            <img class="header__logo" src="../../assets/money.svg" alt="logo">
+            <h1 class="header__title">Currency converter</h1>
+        </div>
+        <ul class="header__currency-list">
+            <li
+                *ngFor="let currency of filtered"
+            >
+            {{ currency.symbol }}
+            {{ currency.label }}
+            </li>
+        </ul>
+        <p class="update">Last update: <span>{{ lastUpdate | date:'HH:mm | dd MMMM yy'}}</span></p>
+        <p class="update">Next update: <span>{{ nextUpdate | date:'HH:mm | dd MMMM yy'}}</span></p>
+    </div>
+</header>

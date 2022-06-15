@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import '../node_modules/modern-normalize/modern-normalize.css';
+@import "~@ng-select/ng-select/themes/default.theme.css";
+@import './styles/index.css';
+
+body {
+    font-family: var(--ff-1);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-400);
+    line-height: var(--lh-500);
+
+    background-color: var(--clr-light-200);
+    color: var(--clr-neutral-100);
+}

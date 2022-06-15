@@ -1,0 +1,23 @@
+:root {
+    /*================= accent colors ================*/
+    
+    --clr-accent-100: #0162ff;
+    --clr-accent-200: #0254d9;
+
+    /*================= neutral colors ================*/
+    --clr-neutral-100: #a3a3a3;
+    
+    /*================= dark colors ================*/
+    --clr-dark-100: #1e2024;
+    --clr-dark-200: #363B41;
+    
+    /*================= light colors ================*/
+    --clr-light-100: #ffffff;
+    --clr-light-200: #f5f5f5;
+
+    /* ================ status color ==================*/
+    --clr-error: #e32505;
+    --clr-succes: #05be62;
+    --clr-warning: #ddbd07;
+    --clr-info: #0454af;
+}

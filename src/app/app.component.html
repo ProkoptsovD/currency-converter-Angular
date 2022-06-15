@@ -1,0 +1,15 @@
+<app-header
+    [currencyList]="currencyList"
+    [lastUpdate]="lastUpdate"
+    [nextUpdate]="nextUpdate"
+>
+</app-header>
+<main>
+    <div class="container app__container">
+        <app-converter
+            [currencyRates]="currencyRates"
+            [currencyList]="currencyList"
+        >
+        </app-converter>
+    </div>
+</main>

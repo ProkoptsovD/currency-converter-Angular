@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    min-width: 320px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1239px) {
+    .container {
+        width: 600px;
+        padding: 0 20px;
+    }
+}
+@media screen and (min-width: 1240px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+.app__container {
+    padding-top: 80px;
+}
